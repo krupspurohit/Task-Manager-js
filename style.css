@@ -1,0 +1,140 @@
+:root {
+	--box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	list-style: none;
+}
+
+.wrap {
+	min-height: 100vh;
+	padding: 20px;
+	background-color: rgba(73, 13, 97, 0.938);
+}
+
+.hide {
+	display: none !important;
+}
+.heading {
+	margin: 10px auto 40px auto;
+}
+.heading .title {
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 500;
+}
+
+.heading .subtitle {
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-weight: 400;
+}
+
+.task-manager {
+	margin: auto;
+	min-width: 350px;
+	max-width: 450px;
+}
+
+.search-box,
+.task-box,
+.message {
+	background-color: #ffffff;
+	margin: 20px 0;
+	padding: 20px 25px;
+	border-radius: 3px;
+}
+
+.search-box .search {
+	display: flex;
+	margin: 10px 0px;
+}
+
+.search-box input {
+	border-radius: 3px;
+	width: 100%;
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.search-box i.reset {
+	font-size: 30px;
+	height: 100%;
+	cursor: pointer;
+	padding: 10px 0;
+}
+
+.task-box .tasks {
+	margin: 10px 0px;
+}
+
+.task-box li {
+	background-color: #f2f2f2;
+	margin: 20px 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.task-box span {
+	padding: 20px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.task-box i.delete {
+	cursor: pointer;
+	padding: 20px;
+	color: #ffffff;
+	background-color: #f13e65;
+	height: 100%;
+	border-radius: 0px 2px 2px 0px;
+}
+
+.task-box .add {
+	margin: 30px 0px 10px 0px;
+	display: flex;
+}
+
+.task-box input[type="text"] {
+	border-radius: 3px;
+	width: 100%;
+	padding: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.task-box input[type="submit"] {
+	padding: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #65c186;
+	border: 0px;
+	font-weight: 600;
+	border-radius: 3px;
+}
+
+.message {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.message .clear {
+	border: 0px;
+	color: #ffffff;
+	background-color: #11468f;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 3px;
+}
